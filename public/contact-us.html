@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Leon J&F Distributor</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<!-- Header -->
+		<style>
+			#map {
+			  width: 100%;
+			  height: 400px;
+			  background-color: grey;
+			}
+		</style>
+
+
+
+	</head>
+	<body class="subpage">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="index.html"> <span>Leon J & F Distribution</span></a></div>
+				<a href="#menu">Menu</a>
+			</header>
+
+			
+
+
+		<!-- Nav -->
+		<nav id="menu">
+			<ul class="links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="products.html">Products</a></li>
+				<li><a href="contact-us.html">Contact us</a></li>
+			</ul>
+			</nav>
+
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Is there anything I can help you with?</p>
+						<h2>Contact us</h2>
+					</header>
+				</div>
+			</section>
+
+		<!-- Main -->
+			<div id="main" class="container">
+
+				<!-- Elements -->
+					
+					<div class="row 200%">
+						<div class="6u 12u$(medium)">
+
+							<!-- Text stuff -->
+								<h3>Phone</h3>
+								<p><a href="tel:+17863025855">(786)-302-5855</a></p>
+								<hr />
+
+								<h3>E-mail</h3>
+								<p><a href="mailto:juan@leonjf.com">juan@leonjf.com</a></p>
+								<hr />
+								
+								<h3>Address</h3>
+								<p>14250 Southwest 275th st, Homestead, FL, USA, 33032</p>
+								<hr />
+
+							
+							<!-- Blockquote 
+								<h3>Blockquote</h3>
+								<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.</blockquote>
+-->
+							
+						</div>
+						<div class="6u$ 12u$(medium)">
+
+							<!-- maps -->
+								<div id="map"></div>
+
+
+							
+
+							
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="tel:+17863025855" class="icon fa-phone"><span class="label">Phone</span></a></li>
+						<li><a href="mailto:juan@leonjf.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						<li><a href="https://www.facebook.com/LeonJandF" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; Leon J&F Distribution. All rights reserved.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+
+	<script>
+			// Initialize and add the map
+			function initMap() {
+			  // The location of Uluru
+			  
+			  var uluru = {lat: 25.511528, lng: -80.421111};
+			  // The map, centered at Uluru
+			  var map = new google.maps.Map(
+				  document.getElementById('map'), {zoom: 4, center: uluru});
+			  // The marker, positioned at Uluru
+			  var marker = new google.maps.Marker({position: uluru, map: map});
+			}
+				</script>
+				<script async defer
+				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgrJ13Yid7fWLgCNIymFLSFEbiHZ2DFP4&callback=initMap">
+	</script>
+</html>
